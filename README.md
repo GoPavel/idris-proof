@@ -10,7 +10,7 @@ sym_plus : {x,y:Nat} -> x + y = y + x
 ## Transitivity of Divisibility
 [Code](https://github.com/GoPavel/idris-proof/blob/master/proofs/TransitivityOfDivisibility.idr)
 
-if b|a and b|c then c|a
+if `b|a` and `b|c` then `c|a`
 
 on idris:
 ```idris
